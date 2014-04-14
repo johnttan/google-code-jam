@@ -29,7 +29,7 @@ class FileLoader(object):
         self.casesnumber = int(self.file.readline())
         self.debug = debug
         self.problemname = problemname or sys.argv[0][:-3]
-        self.output = open("{0}output{1}".format(self.problemname, casefile[:-3]), 'w')
+        self.output = open("tests/{0}output{1}".format(self.problemname, casefile[6:-3]), 'w')
         self.casesdeque = deque()
         self.split = split
 
@@ -78,7 +78,7 @@ def casesolvertest(case):
     return case.case
 
 if __name__ == "__main__":
-    testfile = FileLoader('magictrick', 'D-large.in', split=True, debug=False)
+    testfile = FileLoader('magictrick', 'tests/D-large.in', split=True, debug=False)
     testfile.loadcustomcases(caseloadingtest)
     testfile.solvecases(casesolvertest)
     # testfile.checkvariables()
