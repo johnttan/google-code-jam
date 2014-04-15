@@ -29,4 +29,3 @@ files.solve(casesolver.casesolve, True)
 #Case number input is 1 less than real case number. 0 indexed deque.
 # files.solvesingle(40, casesolver, True)
 
-print()

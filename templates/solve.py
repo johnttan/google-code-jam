@@ -1,5 +1,7 @@
 """
-Functions to solve case
+Problem A
+Small: Unsolved
+Large: Unsolved
 """
 
 class Classcasesolver(object):

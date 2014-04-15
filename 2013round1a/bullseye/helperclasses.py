@@ -69,11 +69,11 @@ class FileLoader(object):
             if printed:
                 print("Case #{0}: {1}\n".format(ind+1, solved))
 
-    def solvesingle(self, casenumber, casesolver):
+    def solvesingle(self, casenumber, casesolver, printed=False):
         solvedsingle = casesolver(self.casesdeque[casenumber])
         if printed:
             print(solvedsingle)
-        return casesolver(solvedsingle)
+        return solvedsingle
 
 """
 """
