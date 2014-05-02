@@ -1,0 +1,35 @@
+{1: [2, 5, 9], 2: [1, 4, 12], 3: [7, 11, 15], 4: [2, 7], 5: [1], 6: [14], 7: [3, 4], 8: [15], 9: [1, 14], 10: [13, 14], 11: [3], 12: [2], 13: [10], 14: [6, 9, 10], 15: [3, 8]}tree
+[5, 6, 8, 11, 12, 13]leavestocheck
+[]deleted
+[]newleaves
+[5, 6, 8, 11, 12, 13]freeleaves
+pruning
+[5, 6, 8, 11, 12, 13]LEAVEStocheck
+[]deleted
+[]newleaves
+[5, 6, 8, 11, 12, 13]freeleaves
+5pruneleaf
+[2, 5, 9]parent
+6pruneleaf
+[6, 9, 10]parent
+8pruneleaf
+[3, 8]parent
+11otherleaf
+12otherleaf
+13otherleaf
+[]newleavesdelete
+[5, 6, 8, 11, 12, 13]freeleavesdelete
+8deleteleaf
+11pruneleaf
+[7, 11, 15]parent
+12pruneleaf
+[1, 4, 12]parent
+13pruneleaf
+[13, 14]parent
+15otherleaf
+[15]LEAVEStocheck
+[8]deleted
+[15]newleaves
+[5, 6, 11, 12, 13]freeleaves
+15pruneleaf
+[7, 11, 15]parent
